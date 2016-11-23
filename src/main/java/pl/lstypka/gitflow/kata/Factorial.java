@@ -7,7 +7,7 @@ public class Factorial
 	{
 		for (int counter = 0; counter <= 10; counter++)
 		{
-			System.out.printf("%d! = %d\n", counter, factorial(counter));
+			System.out.printf("%d! ===) %d\n", counter, factorial(counter));
 		}
 	}
 
