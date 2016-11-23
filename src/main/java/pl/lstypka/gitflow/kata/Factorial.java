@@ -11,7 +11,7 @@ public class Factorial
 		}
 	}
 
-	public static long factorial(long number)
+	public static long factorial(final long number)
 	{
 		if (number <= 1)
 			return 1;
