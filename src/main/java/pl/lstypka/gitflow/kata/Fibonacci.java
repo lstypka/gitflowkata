@@ -15,7 +15,7 @@ public class Fibonacci
 	{
 		int n = 5;
 		for (int i = 1; i <= n; i++)
-			System.out.println(i + " :-) " + fibonacci(i));
+			System.out.println(i + " ---> " + fibonacci(i));
 	}
 
 }
