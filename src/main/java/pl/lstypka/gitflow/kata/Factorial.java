@@ -5,7 +5,7 @@ public class Factorial
 
 	public static void main(String args[])
 	{
-		for (int counter = 0; counter <= 10; counter++)
+		for (int counter = 0; counter <= 20; counter++)
 		{
 			System.out.printf("%d! ---> %d\n", counter, factorial(counter));
 		}
