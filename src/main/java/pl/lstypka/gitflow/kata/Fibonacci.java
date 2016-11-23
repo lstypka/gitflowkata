@@ -3,12 +3,12 @@ package pl.lstypka.gitflow.kata;
 public class Fibonacci
 {
 
-	public static long fibonacci(final int n)
+	public static long fibonacci(final int number)
 	{
-		if (n <= 1)
-			return n;
+		if (number <= 1)
+			return number;
 		else
-			return fibonacci(n - 1) + fibonacci(n - 2);
+			return fibonacci(number - 1) + fibonacci(number - 2);
 	}
 
 	public static void main(final String[] args)
